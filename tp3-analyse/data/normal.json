@@ -1,0 +1,1083 @@
+{
+  "terrains": [
+    {
+      "id": 1,
+      "nom": "Terrain multisports du parc Lecavalier",
+      "type": "Terrain multisports",
+      "sports": [
+        "Soccer",
+        "Basketball"
+      ],
+      "municipalite": "Longueuil",
+      "emplacement": {
+        "adresse": "2040, rue Brébeuf",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain multisports à surface acrylique, principalement conçu pour le soccer; il permet aussi le basketball et d'autres jeux de balle.",
+      "tarifs": "12 $ par terrain / heure",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": []
+    },
+    {
+      "id": 2,
+      "nom": "Terrain municipal de Beauharnois",
+      "type": "Terrain de basketball",
+      "sports": [
+        "Basketball"
+      ],
+      "municipalite": "Beauharnois",
+      "emplacement": {
+        "adresse": "Adresse simulée à Beauharnois",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du basketball en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "4 $ par personne / séance",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 3,
+      "nom": "Terrain municipal de Beloeil",
+      "type": "Terrain de tennis",
+      "sports": [
+        "Tennis"
+      ],
+      "municipalite": "Beloeil",
+      "emplacement": {
+        "adresse": "Adresse simulée à Beloeil",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du tennis en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "8 $ par terrain / heure",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 4,
+      "nom": "Terrain municipal de Calixa-Lavallée",
+      "type": "Terrain de pickleball",
+      "sports": [
+        "Pickleball"
+      ],
+      "municipalite": "Calixa-Lavallée",
+      "emplacement": {
+        "adresse": "Adresse simulée à Calixa-Lavallée",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du pickleball en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "6 $ par personne / séance",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 5,
+      "nom": "Terrain municipal de Candiac",
+      "type": "Terrain de soccer",
+      "sports": [
+        "Soccer"
+      ],
+      "municipalite": "Candiac",
+      "emplacement": {
+        "adresse": "Adresse simulée à Candiac",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du soccer en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "12 $ par terrain / heure",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 6,
+      "nom": "Terrain municipal de Carignan",
+      "type": "Terrain de volleyball",
+      "sports": [
+        "Volleyball"
+      ],
+      "municipalite": "Carignan",
+      "emplacement": {
+        "adresse": "Adresse simulée à Carignan",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du volleyball en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "5 $ par personne / séance",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 7,
+      "nom": "Terrain municipal de Chambly",
+      "type": "Terrain de basketball",
+      "sports": [
+        "Basketball"
+      ],
+      "municipalite": "Chambly",
+      "emplacement": {
+        "adresse": "Adresse simulée à Chambly",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du basketball en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "4 $ par personne / séance",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 8,
+      "nom": "Terrain municipal de Châteauguay",
+      "type": "Terrain de tennis",
+      "sports": [
+        "Tennis"
+      ],
+      "municipalite": "Châteauguay",
+      "emplacement": {
+        "adresse": "Adresse simulée à Châteauguay",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du tennis en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "8 $ par terrain / heure",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 9,
+      "nom": "Terrain municipal de Contrecœur",
+      "type": "Terrain de pickleball",
+      "sports": [
+        "Pickleball"
+      ],
+      "municipalite": "Contrecœur",
+      "emplacement": {
+        "adresse": "Adresse simulée à Contrecœur",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du pickleball en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "6 $ par personne / séance",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 10,
+      "nom": "Terrain municipal de Delson",
+      "type": "Terrain de soccer",
+      "sports": [
+        "Soccer"
+      ],
+      "municipalite": "Delson",
+      "emplacement": {
+        "adresse": "Adresse simulée à Delson",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du soccer en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "12 $ par terrain / heure",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 11,
+      "nom": "Terrain municipal de Hudson",
+      "type": "Terrain de volleyball",
+      "sports": [
+        "Volleyball"
+      ],
+      "municipalite": "Hudson",
+      "emplacement": {
+        "adresse": "Adresse simulée à Hudson",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du volleyball en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "5 $ par personne / séance",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 12,
+      "nom": "Terrain municipal de La Prairie",
+      "type": "Terrain de basketball",
+      "sports": [
+        "Basketball"
+      ],
+      "municipalite": "La Prairie",
+      "emplacement": {
+        "adresse": "Adresse simulée à La Prairie",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du basketball en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "4 $ par personne / séance",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 13,
+      "nom": "Terrain municipal de Léry",
+      "type": "Terrain de tennis",
+      "sports": [
+        "Tennis"
+      ],
+      "municipalite": "Léry",
+      "emplacement": {
+        "adresse": "Adresse simulée à Léry",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du tennis en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "8 $ par terrain / heure",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 14,
+      "nom": "Terrain municipal de Les Cèdres",
+      "type": "Terrain de pickleball",
+      "sports": [
+        "Pickleball"
+      ],
+      "municipalite": "Les Cèdres",
+      "emplacement": {
+        "adresse": "Adresse simulée à Les Cèdres",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du pickleball en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "6 $ par personne / séance",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 15,
+      "nom": "Terrain municipal de L’Île-Cadieux",
+      "type": "Terrain de soccer",
+      "sports": [
+        "Soccer"
+      ],
+      "municipalite": "L’Île-Cadieux",
+      "emplacement": {
+        "adresse": "Adresse simulée à L’Île-Cadieux",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du soccer en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "12 $ par terrain / heure",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 16,
+      "nom": "Terrain municipal de L’Île-Perrot",
+      "type": "Terrain de volleyball",
+      "sports": [
+        "Volleyball"
+      ],
+      "municipalite": "L’Île-Perrot",
+      "emplacement": {
+        "adresse": "Adresse simulée à L’Île-Perrot",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du volleyball en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "5 $ par personne / séance",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 17,
+      "nom": "Terrain municipal de McMasterville",
+      "type": "Terrain de basketball",
+      "sports": [
+        "Basketball"
+      ],
+      "municipalite": "McMasterville",
+      "emplacement": {
+        "adresse": "Adresse simulée à McMasterville",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du basketball en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "4 $ par personne / séance",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 18,
+      "nom": "Terrain municipal de Mercier",
+      "type": "Terrain de tennis",
+      "sports": [
+        "Tennis"
+      ],
+      "municipalite": "Mercier",
+      "emplacement": {
+        "adresse": "Adresse simulée à Mercier",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du tennis en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "8 $ par terrain / heure",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 19,
+      "nom": "Terrain municipal de Mont-Saint-Hilaire",
+      "type": "Terrain de pickleball",
+      "sports": [
+        "Pickleball"
+      ],
+      "municipalite": "Mont-Saint-Hilaire",
+      "emplacement": {
+        "adresse": "Adresse simulée à Mont-Saint-Hilaire",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du pickleball en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "6 $ par personne / séance",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 20,
+      "nom": "Terrain municipal de Notre-Dame-de-l’Île-Perrot",
+      "type": "Terrain de soccer",
+      "sports": [
+        "Soccer"
+      ],
+      "municipalite": "Notre-Dame-de-l’Île-Perrot",
+      "emplacement": {
+        "adresse": "Adresse simulée à Notre-Dame-de-l’Île-Perrot",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du soccer en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "12 $ par terrain / heure",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 21,
+      "nom": "Terrain municipal de Otterburn Park",
+      "type": "Terrain de volleyball",
+      "sports": [
+        "Volleyball"
+      ],
+      "municipalite": "Otterburn Park",
+      "emplacement": {
+        "adresse": "Adresse simulée à Otterburn Park",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du volleyball en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "5 $ par personne / séance",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 22,
+      "nom": "Terrain municipal de Pincourt",
+      "type": "Terrain de basketball",
+      "sports": [
+        "Basketball"
+      ],
+      "municipalite": "Pincourt",
+      "emplacement": {
+        "adresse": "Adresse simulée à Pincourt",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du basketball en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "4 $ par personne / séance",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 23,
+      "nom": "Terrain municipal de Pointe-des-Cascades",
+      "type": "Terrain de tennis",
+      "sports": [
+        "Tennis"
+      ],
+      "municipalite": "Pointe-des-Cascades",
+      "emplacement": {
+        "adresse": "Adresse simulée à Pointe-des-Cascades",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du tennis en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "8 $ par terrain / heure",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 24,
+      "nom": "Terrain municipal de Richelieu",
+      "type": "Terrain de pickleball",
+      "sports": [
+        "Pickleball"
+      ],
+      "municipalite": "Richelieu",
+      "emplacement": {
+        "adresse": "Adresse simulée à Richelieu",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du pickleball en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "6 $ par personne / séance",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 25,
+      "nom": "Terrain municipal de Saint-Amable",
+      "type": "Terrain de soccer",
+      "sports": [
+        "Soccer"
+      ],
+      "municipalite": "Saint-Amable",
+      "emplacement": {
+        "adresse": "Adresse simulée à Saint-Amable",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du soccer en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "12 $ par terrain / heure",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 26,
+      "nom": "Terrain municipal de Saint-Basile-le-Grand",
+      "type": "Terrain de volleyball",
+      "sports": [
+        "Volleyball"
+      ],
+      "municipalite": "Saint-Basile-le-Grand",
+      "emplacement": {
+        "adresse": "Adresse simulée à Saint-Basile-le-Grand",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du volleyball en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "5 $ par personne / séance",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 27,
+      "nom": "Terrain municipal de Saint-Constant",
+      "type": "Terrain de basketball",
+      "sports": [
+        "Basketball"
+      ],
+      "municipalite": "Saint-Constant",
+      "emplacement": {
+        "adresse": "Adresse simulée à Saint-Constant",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du basketball en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "4 $ par personne / séance",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 28,
+      "nom": "Terrain municipal de Sainte-Catherine",
+      "type": "Terrain de tennis",
+      "sports": [
+        "Tennis"
+      ],
+      "municipalite": "Sainte-Catherine",
+      "emplacement": {
+        "adresse": "Adresse simulée à Sainte-Catherine",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du tennis en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "8 $ par terrain / heure",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 29,
+      "nom": "Terrain municipal de Sainte-Julie",
+      "type": "Terrain de pickleball",
+      "sports": [
+        "Pickleball"
+      ],
+      "municipalite": "Sainte-Julie",
+      "emplacement": {
+        "adresse": "Adresse simulée à Sainte-Julie",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du pickleball en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "6 $ par personne / séance",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 30,
+      "nom": "Terrain municipal de Saint-Isidore",
+      "type": "Terrain de soccer",
+      "sports": [
+        "Soccer"
+      ],
+      "municipalite": "Saint-Isidore",
+      "emplacement": {
+        "adresse": "Adresse simulée à Saint-Isidore",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du soccer en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "12 $ par terrain / heure",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 31,
+      "nom": "Terrain municipal de Saint-Jean-Baptiste",
+      "type": "Terrain de volleyball",
+      "sports": [
+        "Volleyball"
+      ],
+      "municipalite": "Saint-Jean-Baptiste",
+      "emplacement": {
+        "adresse": "Adresse simulée à Saint-Jean-Baptiste",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du volleyball en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "5 $ par personne / séance",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 32,
+      "nom": "Terrain municipal de Saint-Lazare",
+      "type": "Terrain de basketball",
+      "sports": [
+        "Basketball"
+      ],
+      "municipalite": "Saint-Lazare",
+      "emplacement": {
+        "adresse": "Adresse simulée à Saint-Lazare",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du basketball en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "4 $ par personne / séance",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 33,
+      "nom": "Terrain municipal de Saint-Mathias-sur-Richelieu",
+      "type": "Terrain de tennis",
+      "sports": [
+        "Tennis"
+      ],
+      "municipalite": "Saint-Mathias-sur-Richelieu",
+      "emplacement": {
+        "adresse": "Adresse simulée à Saint-Mathias-sur-Richelieu",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du tennis en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "8 $ par terrain / heure",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 34,
+      "nom": "Terrain municipal de Saint-Mathieu",
+      "type": "Terrain de pickleball",
+      "sports": [
+        "Pickleball"
+      ],
+      "municipalite": "Saint-Mathieu",
+      "emplacement": {
+        "adresse": "Adresse simulée à Saint-Mathieu",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du pickleball en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "6 $ par personne / séance",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 35,
+      "nom": "Terrain municipal de Saint-Mathieu-de-Beloeil",
+      "type": "Terrain de soccer",
+      "sports": [
+        "Soccer"
+      ],
+      "municipalite": "Saint-Mathieu-de-Beloeil",
+      "emplacement": {
+        "adresse": "Adresse simulée à Saint-Mathieu-de-Beloeil",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du soccer en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "12 $ par terrain / heure",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 36,
+      "nom": "Terrain municipal de Saint-Philippe",
+      "type": "Terrain de volleyball",
+      "sports": [
+        "Volleyball"
+      ],
+      "municipalite": "Saint-Philippe",
+      "emplacement": {
+        "adresse": "Adresse simulée à Saint-Philippe",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du volleyball en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "5 $ par personne / séance",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 37,
+      "nom": "Terrain municipal de Terrasse-Vaudreuil",
+      "type": "Terrain de basketball",
+      "sports": [
+        "Basketball"
+      ],
+      "municipalite": "Terrasse-Vaudreuil",
+      "emplacement": {
+        "adresse": "Adresse simulée à Terrasse-Vaudreuil",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du basketball en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "4 $ par personne / séance",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 38,
+      "nom": "Terrain municipal de Varennes",
+      "type": "Terrain de tennis",
+      "sports": [
+        "Tennis"
+      ],
+      "municipalite": "Varennes",
+      "emplacement": {
+        "adresse": "Adresse simulée à Varennes",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du tennis en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "8 $ par terrain / heure",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 39,
+      "nom": "Terrain municipal de Vaudreuil-Dorion",
+      "type": "Terrain de pickleball",
+      "sports": [
+        "Pickleball"
+      ],
+      "municipalite": "Vaudreuil-Dorion",
+      "emplacement": {
+        "adresse": "Adresse simulée à Vaudreuil-Dorion",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du pickleball en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "6 $ par personne / séance",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 40,
+      "nom": "Terrain municipal de Vaudreuil-sur-le-Lac",
+      "type": "Terrain de soccer",
+      "sports": [
+        "Soccer"
+      ],
+      "municipalite": "Vaudreuil-sur-le-Lac",
+      "emplacement": {
+        "adresse": "Adresse simulée à Vaudreuil-sur-le-Lac",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du soccer en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "12 $ par terrain / heure",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 41,
+      "nom": "Terrain municipal de Verchères",
+      "type": "Terrain de volleyball",
+      "sports": [
+        "Volleyball"
+      ],
+      "municipalite": "Verchères",
+      "emplacement": {
+        "adresse": "Adresse simulée à Verchères",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du volleyball en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "5 $ par personne / séance",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 42,
+      "nom": "Terrain municipal de Boucherville",
+      "type": "Terrain de basketball",
+      "sports": [
+        "Basketball"
+      ],
+      "municipalite": "Boucherville",
+      "emplacement": {
+        "adresse": "Adresse simulée à Boucherville",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du basketball en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "4 $ par personne / séance",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 43,
+      "nom": "Terrain municipal de Brossard",
+      "type": "Terrain de tennis",
+      "sports": [
+        "Tennis"
+      ],
+      "municipalite": "Brossard",
+      "emplacement": {
+        "adresse": "Adresse simulée à Brossard",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du tennis en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "8 $ par terrain / heure",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 44,
+      "nom": "Terrain municipal de Saint-Bruno-de-Montarville",
+      "type": "Terrain de soccer",
+      "sports": [
+        "Soccer"
+      ],
+      "municipalite": "Saint-Bruno-de-Montarville",
+      "emplacement": {
+        "adresse": "Adresse simulée à Saint-Bruno-de-Montarville",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du soccer en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "12 $ par terrain / heure",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    },
+    {
+      "id": 45,
+      "nom": "Terrain municipal de Saint-Lambert",
+      "type": "Terrain de volleyball",
+      "sports": [
+        "Volleyball"
+      ],
+      "municipalite": "Saint-Lambert",
+      "emplacement": {
+        "adresse": "Adresse simulée à Saint-Lambert",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "Terrain extérieur aménagé pour la pratique du volleyball en loisir, avec une surface adaptée et un espace réservé aux joueurs.",
+      "tarifs": "5 $ par personne / séance",
+      "conditions": [
+        "Réservation recommandée avant la visite",
+        "Chaussures de sport obligatoires",
+        "Activités offertes selon les conditions météorologiques"
+      ],
+      "disponibilites": [
+        "Horaire simulé : tous les jours, 8 h à 22 h"
+      ]
+    }
+  ]
+}

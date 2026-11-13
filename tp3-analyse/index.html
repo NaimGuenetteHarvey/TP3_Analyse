@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Terrains sportifs</title>
+  <meta name="theme-color" content="#f3f6f2">
+  <title>Terrains sportifs — Rive-Sud</title>
   <link rel="stylesheet" href="css/style.css">
   <script src="js/details.js" defer></script>
   <script src="js/app.js" defer></script>
@@ -11,26 +12,48 @@
 <body>
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="brand" href="index.html">Terrains sportifs</a>
-      <span class="header-note">Rive-Sud de Montréal</span>
+      <a class="brand" href="index.html" aria-label="Terrains sportifs, accueil">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M4 6.5 12 3l8 3.5v11L12 21l-8-3.5v-11Z" stroke="currentColor" stroke-width="1.7"/><path d="m4.5 6.8 7.5 3.4 7.5-3.4M12 10.2V21" stroke="currentColor" stroke-width="1.5"/></svg>
+        </span>
+        <span>Terrains<span class="brand-light"> sportifs</span></span>
+      </a>
+      <span class="header-note"><span class="status-dot" aria-hidden="true"></span> Rive-Sud de Montréal</span>
     </div>
   </header>
   <main class="wrap page">
-    <div class="intro">
-      <p class="eyebrow">Explorer les installations</p>
-      <h1>Terrains sportifs</h1>
-      <p class="lead">Sélectionnez un terrain pour consulter ses détails.</p>
-    </div>
+    <section class="intro" aria-labelledby="page-title">
+      <div>
+        <p class="eyebrow">Bouger près de chez vous</p>
+        <h1 id="page-title">Trouvez votre terrain.</h1>
+        <p class="lead">Explorez les installations sportives et consultez leurs détails en un coup d’œil.</p>
+      </div>
+    </section>
     <section class="layout" aria-label="Liste des terrains et détails">
       <section class="list-panel" aria-labelledby="list-title">
-        <div class="section-heading"><h2 id="list-title">Liste des terrains</h2><span id="result-count" class="count"></span></div>
+        <div class="section-heading">
+          <div><p class="panel-kicker">À découvrir</p><h2 id="list-title">Les terrains</h2></div>
+          <span id="result-count" class="count"></span>
+        </div>
+        <label class="search-label" for="terrain-search">Rechercher une installation</label>
+        <div class="search-box">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8" stroke="currentColor" stroke-width="1.8"/><path d="m16 16 4.2 4.2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          <input id="terrain-search" class="terrain-search" type="search" placeholder="Ville, sport ou nom du terrain" autocomplete="off">
+        </div>
+        <p id="filter-summary" class="filter-summary" aria-live="polite"></p>
         <div id="terrain-list" class="terrain-list" aria-live="polite"></div>
       </section>
       <section id="detail-panel" class="detail-panel" aria-live="polite" aria-labelledby="detail-title">
-        <div class="empty-state"><p class="eyebrow">Détails</p><h2 id="detail-title">Aucun terrain sélectionné</h2></div>
+        <div class="empty-state">
+          <span class="empty-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M4 6.5 12 3l8 3.5v11L12 21l-8-3.5v-11Z" stroke="currentColor" stroke-width="1.5"/><path d="m4.5 6.8 7.5 3.4 7.5-3.4M12 10.2V21" stroke="currentColor" stroke-width="1.5"/></svg></span>
+          <p class="eyebrow">Votre prochaine activité</p>
+          <h2 id="detail-title">Choisissez un terrain</h2>
+          <p class="empty-copy">Sélectionnez une carte pour afficher son emplacement, ses sports et les renseignements disponibles.</p>
+        </div>
       </section>
     </section>
     <p id="app-message" class="app-message" role="status"></p>
+    <footer class="site-footer">Terrains sportifs <span>·</span> Explorer la Rive-Sud</footer>
   </main>
 </body>
 </html>
