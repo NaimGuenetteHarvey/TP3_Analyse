@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Terrains sportifs</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/details.js" defer></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">Terrains sportifs</a>
+      <span class="header-note">Rive-Sud de Montréal</span>
+    </div>
+  </header>
+  <main class="wrap page">
+    <div class="intro">
+      <p class="eyebrow">Explorer les installations</p>
+      <h1>Terrains sportifs</h1>
+      <p class="lead">Sélectionnez un terrain pour consulter ses détails.</p>
+    </div>
+    <section class="layout" aria-label="Liste des terrains et détails">
+      <section class="list-panel" aria-labelledby="list-title">
+        <div class="section-heading"><h2 id="list-title">Liste des terrains</h2><span id="result-count" class="count"></span></div>
+        <div id="terrain-list" class="terrain-list" aria-live="polite"></div>
+      </section>
+      <section id="detail-panel" class="detail-panel" aria-live="polite" aria-labelledby="detail-title">
+        <div class="empty-state"><p class="eyebrow">Détails</p><h2 id="detail-title">Aucun terrain sélectionné</h2></div>
+      </section>
+    </section>
+    <p id="app-message" class="app-message" role="status"></p>
+  </main>
+</body>
+</html>
