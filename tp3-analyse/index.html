@@ -7,6 +7,7 @@
   <title>Terrains sportifs — Rive-Sud</title>
   <link rel="stylesheet" href="css/style.css">
   <script src="js/details.js" defer></script>
+  <script src="js/filtres.js" defer></script>
   <script src="js/app.js" defer></script>
 </head>
 <body>
@@ -39,6 +40,13 @@
         <div class="search-box">
           <svg class="search-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8" stroke="currentColor" stroke-width="1.8"/><path d="m16 16 4.2 4.2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
           <input id="terrain-search" class="terrain-search" type="search" placeholder="Ville, sport ou nom du terrain" autocomplete="off">
+        </div>
+        <label class="search-label filter-label" for="sport-filter">Filtrer par sport</label>
+        <div class="filter-row">
+          <select id="sport-filter" class="sport-filter" disabled>
+            <option value="">Tous les sports</option>
+          </select>
+          <button id="sport-filter-reset" class="filter-reset" type="button" hidden>Retirer le filtre</button>
         </div>
         <p id="filter-summary" class="filter-summary" aria-live="polite"></p>
         <div id="terrain-list" class="terrain-list" aria-live="polite"></div>
