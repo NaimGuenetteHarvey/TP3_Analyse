@@ -6,26 +6,21 @@
   const compteur = document.querySelector('#result-count');
   const resume = document.querySelector('#filter-summary');
   const jeuxDisponibles = ['normal', 'limites', 'erreurs'];
-  const jeuDemande = new URLSearchParams(window.location.search).get('jeu');
+  const parametres = new URLSearchParams(window.location.search);
+  const jeuDemande = parametres.get('jeu');
   const jeu = jeuxDisponibles.includes(jeuDemande) ? jeuDemande : 'normal';
-  const terrainIdDemande = new URLSearchParams(window.location.search).get('terrainId');
+  const terrainIdDemande = parametres.get('terrainId');
   let terrains = [];
   let terrainSelectionne = null;
 
   try {
-    const reponse = await fetch('data/' + jeu + '.json');
-    if (!reponse.ok) throw new Error('Chargement impossible');
-
-    const contenu = await reponse.text();
-    const donnees = contenu.trim() ? JSON.parse(contenu) : { terrains: [] };
-    terrains = Array.isArray(donnees) ? donnees : donnees.terrains;
-    if (!Array.isArray(terrains)) throw new Error('Format de données invalide');
+    terrains = await chargerTerrains();
     afficherListe();
 
     if (terrainIdDemande !== null) {
       terrainSelectionne = terrains.find((terrain) => terrain && String(terrain.id) === terrainIdDemande) || null;
       if (terrainSelectionne) afficherListe();
-      window.DetailsTerrain.afficher(terrainSelectionne);
+      afficherFiche();
     }
   } catch {
     message.textContent = 'Impossible de charger les données des terrains.';
@@ -42,8 +37,33 @@
       carte.classList.toggle('is-selected', selectionnee);
       carte.setAttribute('aria-pressed', String(selectionnee));
     });
-    window.DetailsTerrain.afficher(terrainSelectionne);
+    afficherFiche();
   });
+
+  function afficherFiche() {
+    window.DetailsTerrain.afficher(terrainSelectionne);
+    if (terrainSelectionne) {
+      const panel = document.querySelector('#detail-panel');
+      window.DisponibilitesTerrain.afficher(panel, terrainSelectionne, async (id) => {
+        const simulerRetrait = parametres.get('demoUs4') === 'retrait'
+          && jeu === 'normal' && String(id) === '2';
+        const jeuVerification = simulerRetrait ? 'us4-retrait' : jeu;
+        const donneesActuelles = await chargerTerrains(jeuVerification, { cache: 'no-store' });
+        return donneesActuelles.find((terrain) => terrain && String(terrain.id) === String(id));
+      });
+    }
+  }
+
+  async function chargerTerrains(jeuACharger = jeu, options) {
+    const reponse = await fetch('data/' + jeuACharger + '.json', options);
+    if (!reponse.ok) throw new Error('Chargement impossible');
+
+    const contenu = await reponse.text();
+    const donnees = contenu.trim() ? JSON.parse(contenu) : { terrains: [] };
+    const donneesTerrains = Array.isArray(donnees) ? donnees : donnees.terrains;
+    if (!Array.isArray(donneesTerrains)) throw new Error('Format de données invalide');
+    return donneesTerrains;
+  }
 
   function afficherListe() {
     const recherche = normaliser(champRecherche.value.trim());
