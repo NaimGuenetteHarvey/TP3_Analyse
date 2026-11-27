@@ -1,0 +1,57 @@
+{
+  "terrains": [
+    {
+      "id": 1,
+      "nom": "Terrain multisports du parc Lecavalier",
+      "type": "Terrain multisports",
+      "sports": [
+        "Soccer",
+        "Basketball"
+      ],
+      "municipalite": "Longueuil",
+      "emplacement": {
+        "adresse": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "description": null,
+      "tarifs": null,
+      "conditions": [],
+      "disponibilites": []
+    },
+    {
+      "id": 0,
+      "nom": "Terrain de test — nom très long nom très long nom très long nom très long nom très long nom très long nom très long nom très long nom très long nom très long nom très long nom très long nom très long nom très long nom très long nom très long ",
+      "type": "Terrain de test",
+      "sports": [
+        "Basketball"
+      ],
+      "municipalite": "Longueuil",
+      "emplacement": {
+        "adresse": "Adresse de test — texte très long texte très long texte très long texte très long texte très long texte très long texte très long texte très long texte très long texte très long texte très long texte très long texte très long texte très long texte très long texte très long texte très long texte très long texte très long texte très long ",
+        "latitude": 0,
+        "longitude": 0
+      },
+      "description": "Description limite — Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. Texte de test très long. ",
+      "tarifs": 0,
+      "conditions": [],
+      "disponibilites": []
+    },
+    {
+      "id": 2,
+      "nom": "Terrain de test — champs vides",
+      "type": "",
+      "sports": [],
+      "municipalite": "Longueuil",
+      "emplacement": {
+        "adresse": "",
+        "latitude": null,
+        "longitude": null
+      },
+      "description": "",
+      "tarifs": null,
+      "conditions": [],
+      "disponibilites": []
+    }
+  ]
+}
